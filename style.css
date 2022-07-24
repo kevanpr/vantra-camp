@@ -36,10 +36,11 @@ ul {
 .intro {
     display: flex;
     padding: 75px 0px;
-    justify-content: space-between
+    justify-content: space-between;
+    gap: 200px;
 }
 
-.left-side {
+.int-details {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -47,12 +48,12 @@ ul {
     gap: 16px;
 }
 
-.text {
+.int-title {
     font-size: 35px;
     font-weight: bolder;
 }
 
-.sub-text {
+.int-text {
     font-size: 18px;
     flex-wrap: wrap;
 }
@@ -64,6 +65,60 @@ button {
     border-radius: 10px;
 }
 
-img {
+.int-img img{
     width: 400px;
+}
+
+.gallery img {
+    width: 400px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 200px;
+    margin: 0;
+    gap: 50px;
+    height: 450px;
+}
+
+.gallery-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.farm, .mountain, .park {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery-title {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.title {
+    padding: 16px 0 0 0;
+    font-weight: bolder;
+
+}
+
+.sub-text {
+    font-size: 14px;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 8px 0 16px 0;
+}
+
+.text-container {
+    width: 400px;
+    color: ghostwhite;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
