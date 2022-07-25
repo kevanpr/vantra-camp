@@ -63,6 +63,7 @@ button {
     font-weight: 100;
     padding: 8px;
     border-radius: 10px;
+    background-color: ghostwhite;
 }
 
 .int-img img{
@@ -77,7 +78,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 200px;
+    padding: 50px 200px 75px;
     margin: 0;
     gap: 50px;
     height: 450px;
@@ -121,4 +122,37 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.inspiration {
+    background-color: gold;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inspo-container {
+    background-color: black;
+    color: gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 300px;
+    gap: 24px;
+}
+
+.quote {
+    font-size: xx-large;
+    font-style: italic;
+    width: 800px;
+}
+
+.author {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 100px;
 }
