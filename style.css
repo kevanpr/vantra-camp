@@ -204,10 +204,9 @@ button {
 
 .footer {
     font-size: 14px;
-    font-weight: bold;
-    height: 80px;
+    height: 75px;
     background-color: black;
-    color: gold;
+    color: ghostwhite;
     display: flex;
     justify-content: center;
     align-items: center;
