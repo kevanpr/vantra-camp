@@ -25,6 +25,11 @@ body {
     font-weight: 900;
 }
 
+a {
+    text-decoration: none;
+    color: gold;
+}
+
 ul {
     list-style: none;
     display: flex;
